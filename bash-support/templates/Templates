@@ -2,15 +2,15 @@
 §  User Macros
 § =============================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
-SetMacro( 'AUTHORREF',   '' )
+SetMacro( 'AUTHOR',      'Aleksei Kioller' )
+SetMacro( 'GITHUB',      'https://github.com/Cuttlerat' )
 SetMacro( 'COMPANY',     '' )
 SetMacro( 'COPYRIGHT',   '' )
-SetMacro( 'EMAIL',       '' )
+SetMacro( 'EMAIL',       'avkioller@gmail.com' )
 SetMacro( 'LICENSE',     '' )
 SetMacro( 'ORGANIZATION','' )
 
-SetFormat( 'DATE', '%x' )
+SetFormat( 'DATE', '%d.%m.%Y' )
 SetFormat( 'TIME', '%H:%M' )
 SetFormat( 'YEAR', '%Y' )
 
