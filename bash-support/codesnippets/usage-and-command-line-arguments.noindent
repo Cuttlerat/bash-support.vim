@@ -5,7 +5,7 @@ ScriptVersion="1.0"
 #         NAME:  usage
 #  DESCRIPTION:  Display usage information.
 #===============================================================================
-function usage ()
+function _usage ()
 {
 	cat <<- EOT
 
@@ -26,12 +26,12 @@ while getopts ":hv" opt
 do
   case $opt in
 
-    h|help     )  usage; exit 0   ;;
+    h|help     )  _usage; exit 0   ;;
 
     v|version  )  echo "$0 -- Version $ScriptVersion"; exit 0   ;;
 
     \? )  echo -e "\n  Option does not exist : $OPTARG\n"
-          usage; exit 1   ;;
+          _usage; exit 1   ;;
 
   esac    # --- end of case ---
 done
